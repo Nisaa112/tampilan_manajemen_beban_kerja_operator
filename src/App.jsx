@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './Login';
+import Login from './login';
 import AdminDashboard from './AdminDashboard';
 import OperatorDashboard from './OperatorDashboard';
 import MasterMesin from './MasterMesin';
@@ -64,7 +64,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
-  );
+  ); 
 }
 
 export default App;
