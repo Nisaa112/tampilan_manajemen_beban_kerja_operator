@@ -107,15 +107,6 @@ function KirimTugas() {
       {/* Navigasi Cepat Responsif */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px', marginBottom: '15px' }}>
         <button 
-          onClick={() => navigate('/admin-dashboard')} 
-          style={{ 
-            backgroundColor: '#ffffff', color: '#7f011f', border: '1px solid #7f011f', borderRadius: '10px', 
-            padding: '8px 16px', cursor: 'pointer', fontWeight: 'bold', fontSize: '13px', display: 'flex', alignItems: 'center', gap: '6px' 
-          }}
-        >
-          <FiArrowLeft size={14} /> Dashboard
-        </button>
-        <button 
           onClick={() => navigate('/monitoring-tugas')} 
           style={{ 
             backgroundColor: '#28a745', color: 'white', border: 'none', borderRadius: '10px', 
